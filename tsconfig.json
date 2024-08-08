@@ -2,7 +2,10 @@
   "extends": "@tsconfig/node16/tsconfig.json",
   "compilerOptions": {
     "useUnknownInCatchVariables": false,
-    "module": "node16",
+    "moduleResolution": "Bundler",
+    "module": "ESNext",
+    "lib": ["ESNext"],
+    "target": "ESNext",
     "removeComments": true,
     "declaration": true,
     "types": ["vitest/globals"],
