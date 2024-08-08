@@ -1,0 +1,13 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    "useUnknownInCatchVariables": false,
+    "module": "node16",
+    "removeComments": true,
+    "declaration": true,
+    "types": ["vitest/globals"],
+    "outDir": "./dist"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
