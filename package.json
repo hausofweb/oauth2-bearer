@@ -1,11 +1,11 @@
 {
-  "name": "@hausofweb/oauth2-bearer",
+  "name": "@hausofweb/oauth2bearer",
   "license": "MIT",
   "author": "Kenton Duprey",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hausofweb/oauth2-bearer"
+    "url": "https://github.com/hausofweb/oauth2bearer.git"
   },
   "exports": {
     ".": {
